@@ -7,11 +7,11 @@ import { Routes, Route } from 'react-router-dom';
 let TVinformation = [
   [  
       {
-          path: "/assets/nowPlayingMovies/1.webp",
+          path: "/assets/popularTVShows/1.webp",
           title: "Law & Order"
       },
       {
-          path: "/assets/nowPlayingMovies/2.webp",
+          path: "/assets/popularTVShows/2.webp",
           title: "Tagesschau"
       }
       ,
@@ -92,171 +92,167 @@ let TVinformation = [
   ], // popular Tv shows
   [  
       {
-          path: "/assets/popularTvshows/1.webp",
-          title: "Law & Order"
+          path: "/assets/topRatedTvShows/1.webp",
+          title: "Family Guy"
       },
       {
-          path: "/assets/popularTvshows/2.webp",
+          path: "/assets/topRatedTvShows/2.webp",
           title: "Tagesschau"
       }
       ,
       {
-          path: "/assets/popularTvshows/3.webp",
+          path: "/assets/topRatedTvShows/3.webp",
+          title: "Snofall"
+    },
+      {
+          path: "/assets/topRatedTvShows/4.webp",
           title: "The Simpsons"
       },
       {
-          path: "/assets/popularTvshows/4.webp",
-          title: "Elas por Elas"
+          path: "/assets/topRatedTvShows/5.webp",
+          title: "Troltider"
       },
       {
-          path: "/assets/popularTvshows/5.webp",
-          title: "Tommorow is Ours"
-      },
-      {
-          path: "/assets/popularTvshows/6.webp",
+          path: "/assets/topRatedTvShows/6.webp",
           title: "Ammerican Dad!"
       },
       {
-          path: "/assets/popularTvshows/7.webp",
+          path: "/assets/topRatedTvShows/7.webp",
           title: "The Queen of News"
       },
       {
-          path: "/assets/popularTvshows/8.webp",
+          path: "/assets/topRatedTvShows/8.webp",
           title: "Senior High"
       },
       {
-          path: "/assets/popularTvshows/9.webp",
+          path: "/assets/topRatedTvShows/9.webp",
           title: "Gran hermano"
       },
       {
-          path: "/assets/popularTvshows/10.webp",
+          path: "/assets/topRatedTvShows/10.webp",
           title: "Grey's Anatomy"
       },
       {
-          path: "/assets/popularTvshows/11.webp",
+          path: "/assets/topRatedTvShows/11.webp",
           title: "Chronicles of the Sun"
       },
       {
-          path: "/assets/popularTvshows/12.webp",
+          path: "/assets/topRatedTvShows/12.webp",
           title: "The Elegant Empire"
       },
       {
-          path: "/assets/popularTvshows/13.webp",
+          path: "/assets/topRatedTvShows/13.webp",
           title: "Unpredictable Family"
       },
       {
-          path: "/assets/popularTvshows/14.webp",
+          path: "/assets/topRatedTvShows/14.webp",
           title: "Minas de Pasión"
       },
       {
-          path: "/assets/popularTvshows/15.webp",
+          path: "/assets/topRatedTvShows/15.webp",
           title: "Beverly Hills, 90210"
       },
       {
-          path: "/assets/popularTvshows/16.webp",
+          path: "/assets/topRatedTvShows/16.webp",
           title: "Gran hermano VIP"
       },
       {
-          path: "/assets/popularTvshows/17.webp",
+          path: "/assets/topRatedTvShows/17.webp",
           title: "Binnelanders"
       },
       {
-          path: "/assets/popularTvshows/18.webp",
+          path: "/assets/topRatedTvShows/18.webp",
           title: "Operación triunfo"
       },
     
       {
-          path: "/assets/popularTvshows/19.webp",
+          path: "/assets/topRatedTvShows/19.webp",
           title: "Ulice"
       },
       {
-          path: "/assets/popularTvshows/20.webp",
+          path: "/assets/topRatedTvShows/20.webp",
           title: "Great Minds"
       },
    
   ],// [], // top rated Tv shows
   [  
       {
-          path: "/assets/popularTvshows/1.webp",
+          path: "/assets/airingToday/1.webp",
           title: "Law & Order"
       },
       {
-          path: "/assets/popularTvshows/2.webp",
+          path: "/assets/airingToday/2.webp",
           title: "Tagesschau"
       }
       ,
       {
-          path: "/assets/popularTvshows/3.webp",
+          path: "/assets/airingToday/3.webp",
           title: "The Simpsons"
       },
       {
-          path: "/assets/popularTvshows/4.webp",
+          path: "/assets/airingToday/4.webp",
           title: "Elas por Elas"
       },
       {
-          path: "/assets/popularTvshows/5.webp",
+          path: "/assets/airingToday/5.webp",
           title: "Tommorow is Ours"
       },
       {
-          path: "/assets/popularTvshows/6.webp",
+          path: "/assets/airingToday/6.webp",
           title: "Ammerican Dad!"
       },
       {
-          path: "/assets/popularTvshows/7.webp",
+          path: "/assets/airingToday/7.webp",
           title: "The Queen of News"
       },
       {
-          path: "/assets/popularTvshows/8.webp",
+          path: "/assets/airingToday/8.webp",
           title: "Senior High"
       },
       {
-          path: "/assets/popularTvshows/9.webp",
+          path: "/assets/airingToday/9.webp",
           title: "Gran hermano"
       },
       {
-          path: "/assets/popularTvshows/10.webp",
+          path: "/assets/airingToday/10.webp",
           title: "Grey's Anatomy"
       },
       {
-          path: "/assets/popularTvshows/11.webp",
+          path: "/assets/airingToday/11.webp",
           title: "Chronicles of the Sun"
       },
       {
-          path: "/assets/popularTvshows/12.webp",
+          path: "/assets/airingToday/12.webp",
           title: "The Elegant Empire"
       },
       {
-          path: "/assets/popularTvshows/13.webp",
+          path: "/assets/airingToday/13.webp",
           title: "Unpredictable Family"
       },
       {
-          path: "/assets/popularTvshows/14.webp",
+          path: "/assets/airingToday/14.webp",
           title: "Minas de Pasión"
       },
       {
-          path: "/assets/popularTvshows/15.webp",
+          path: "/assets/airingToday/15.webp",
           title: "Beverly Hills, 90210"
       },
       {
-          path: "/assets/popularTvshows/16.webp",
+          path: "/assets/airingToday/16.webp",
           title: "Gran hermano VIP"
       },
       {
-          path: "/assets/popularTvshows/17.webp",
+          path: "/assets/airingToday/17.webp",
           title: "Binnelanders"
       },
       {
-          path: "/assets/popularTvshows/18.webp",
+          path: "/assets/airingToday/18.webp",
           title: "Operación triunfo"
       },
     
       {
-          path: "/assets/popularTvshows/19.webp",
+          path: "/assets/airingToday/19.webp",
           title: "Ulice"
-      },
-      {
-          path: "/assets/popularTvshows/20.webp",
-          title: "Great Minds"
       },
    
   ],// []  // airing today
@@ -534,7 +530,6 @@ function App() {
           <Route index={true} element={<FullTvMovieSection information={TVinformation} headings={TVheadings} />} />
           <Route path='tvshows/' element={<FullTvMovieSection information={TVinformation} headings={TVheadings}/>} />
           <Route path='movies/' element={<FullTvMovieSection information={Moviesinformation} headings={Moviesheadings}/>} />
-
         </Route>
       </Routes>
     </>

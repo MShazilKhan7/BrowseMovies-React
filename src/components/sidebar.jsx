@@ -1,5 +1,9 @@
 import React from "react";
-
+import {FaHome } from "react-icons/fa";
+import { CgCommunity } from "react-icons/cg";
+import { MdScreenshotMonitor, MdMovie } from "react-icons/md";
+import { PiSignIn } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 function Sidebar(params) {
     return (
@@ -8,18 +12,18 @@ function Sidebar(params) {
     <div className="items">
         <li id="main-heading"><a href="#">OSHERE</a></li>
         <li>
-        <h5>Menu</h5>
-        <a href="#"><i className="ri-home-4-fill"></i> Home</a>
-        <a href="#"><i className="ri-community-line"></i> Communities</a>
+            <h5>Menu</h5>
+            <Link> <FaHome/> Home</Link>
+            <Link> <CgCommunity/> Communities</Link>
         </li>
         <li>
-        <h5>Media</h5>
-        <a href="#"><i className="ri-tv-2-line"></i> Tv shows</a>
-        <a href="#"><i className="ri-film-line"></i> Movies</a>
+            <h5>Media</h5>
+            <Link to={'tvshows'}><MdScreenshotMonitor /> Tv shows </Link>
+            <Link to={'movies'}><MdMovie /> Movies </Link>
         </li>
         <li>
-        <h5>General</h5>
-        <a href="#"><i className="ri-tv-2-line"></i> Sign in</a>
+            <h5>General</h5>
+            <Link><PiSignIn /> Movies </Link>
         </li>
     </div>
 </section>
