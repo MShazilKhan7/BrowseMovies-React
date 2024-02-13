@@ -15,11 +15,14 @@
   font-family: "inter";
   src: url(/public/assets/fonts/2aaf0723e720e8b9.p.woff2);
 }
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+  font-family: "inter";
 }
 
 li{
@@ -33,6 +36,7 @@ a{
 html,body{
   width: 100%;
   height: 100%;
+  
 }
 *::-webkit-scrollbar{
   display: none;
@@ -58,7 +62,6 @@ html,body{
   background-color: var(--sidebar-bg-color); 
 }
 .sidebar .items li{
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: var(--font-color);
@@ -79,8 +82,7 @@ html,body{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   gap: 5px;
   color: var(--font-color);
@@ -91,8 +93,8 @@ html,body{
   margin-bottom: -40px;
 
 }
+
 #main-heading a{
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
 }
 
@@ -117,7 +119,6 @@ html,body{
   background-color: var(--primary-color);
   /* background-color: red; */
   color: var(--font-color);
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
   z-index: 4;
   display: none;
@@ -150,7 +151,6 @@ html,body{
 .navbar .navbar-items li{
   display: flex;
   flex-direction: column;
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: var(--font-color);
@@ -210,7 +210,6 @@ html,body{
   display: flex;
   gap: 5px;
   padding-bottom: 20px;
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   color: var(--font-color);
@@ -225,7 +224,6 @@ html,body{
 .category-items .items{
   display: flex;
   gap: 40px;
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   white-space: nowrap;
@@ -321,7 +319,6 @@ html,body{
   right: 20px;
 }
 .overlay div h3,time,p{
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 300;
 }
 .overlay div time,p{
@@ -344,7 +341,6 @@ html,body{
 }
 
 h3[class="heading"]{
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;
   color: #EBF5F4;
@@ -387,7 +383,6 @@ h3[class="heading"]{
 }
 
 .card-details h4{
-  font-family: 'inter Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.2rem;
   color: var(--font-color);
   margin-bottom: 20px;

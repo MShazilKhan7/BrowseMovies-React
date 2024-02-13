@@ -2,7 +2,6 @@ import React from "react"
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-
 const CarouselDetails =  [
     {
         path: '/assets/carousel/image (1).webp' ,
@@ -22,8 +21,6 @@ const CarouselDetails =  [
         time: 'Thu, Oct 5, 2023',
         description: "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive."
     },
-
-
     {
         path: '/assets/carousel/image (15).webp' ,
         title: 'Killers of the Flower Moon',
@@ -42,13 +39,13 @@ const CarouselDetails =  [
         time: 'Tue, Sep 26, 2023',
         description: "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps."
     },
-
 ]
+
 
 
 function Carousel(){
   const [counter, setCounter] = useState(0);
-  
+
   const shiftSlide = ()=>{
     const slides  = document.querySelectorAll('.slide')
     slides.forEach((sl,index)=>{
@@ -72,7 +69,8 @@ function Carousel(){
         <div className="carousel">
             <div className="carousel-images">
                 {CarouselDetails.map((slide,index)=>{
-                return (<div key={index} style={{left: `${index*100}%`}} className="slide">
+                return (
+                <div key={index} style={{left: `${index*100}%`}} className="slide">
                     <img src={slide.path} alt=""></img>
                     <div className="overlay">
                         <div>

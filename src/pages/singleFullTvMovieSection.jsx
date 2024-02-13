@@ -3,8 +3,8 @@ import OneTvMovieSection from "../components/oneTvMovie";
 
 
 function FullTvMovieSection(props) {
+    console.log(props)
     
-
     return (
         // three sections
         // Popular TV Shows
