@@ -10,7 +10,7 @@ function Sidebar(params) {
     <>
     <section className="sidebar">
     <div className="items">
-        <li id="main-heading"><a href="#">OSHERE</a></li>
+        <li id="main-heading"><Link to={'/'}>OSHERE</Link></li>
         <li>
             <h5>Menu</h5>
             <Link> <FaHome/> Home</Link>
